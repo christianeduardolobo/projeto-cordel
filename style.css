@@ -22,7 +22,7 @@ header{
 header > h1{
     font-family: 'akira', sans-serif;
     font-weight: 700;
-    font-size: 3em;
+    font-size: 6vh;
 }
 header > p{
     font-family: Arial, Helvetica, sans-serif;
@@ -38,7 +38,7 @@ header > p > a:hover{
 .verso{
     text-align: left;
     padding: 20px;
-    font-size: 5vh;
+    font-size: 3.5vh;
     font-family: 'Sriracha', sans-serif;
     font-weight: lighter;
 }
@@ -51,6 +51,7 @@ header > p > a:hover{
     background-attachment: fixed;
 }
 #text-in-image{
+    display: inline-block;
     font-family: 'Sriracha', sans-serif;
     font-weight: lighter;
     background-color: rgba(211, 211, 211, 0.164);
@@ -58,7 +59,7 @@ header > p > a:hover{
     max-width: 600px;
     position: absolute;
     left: 40px;
-    transform: translate(0% , 3%);
+    transform: translate(-3% , 30%);
 }
 #background2{
     height: 800px;
@@ -76,7 +77,7 @@ header > p > a:hover{
     max-width: 600px;
     position: absolute;
     left: 40px;
-    transform: translate(-3% , 1%);
+    transform: translate(-3% , 15%);
     text-align: left;
 }
 footer{
